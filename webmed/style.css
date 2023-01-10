@@ -1,0 +1,152 @@
+body {
+
+    font-family: "Montserrat",
+        sans-serif;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-size: cover;
+    min-height: 5vh;
+
+}
+
+.logo {
+    margin-left: 200px;
+    width: 270px;
+}
+
+.nav-links {
+    display: flex;
+    margin-right: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.firsta {
+    color: rgb(0, 255, 221);
+}
+
+nav a {
+    font-size: 17px;
+    margin: 0px 9px;
+    color: grey;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+
+#home-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 0;
+
+
+}
+
+.paragraphe {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.paragraphe p {
+    margin: 40px 30px;
+    font-size: 14px;
+    font-weight: 200;
+    color: grey;
+}
+
+.ptwo {
+    background-color: rgb(0, 255, 191);
+
+}
+
+#home-page h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aquamarine;
+}
+
+#home-page p {
+    font-size: 20px;
+    width: 500px;
+}
+
+
+#home-content {
+    position: relative;
+    text-align: center;
+}
+
+/* SECTION SERVICES */
+
+#services {
+    text-align: center;
+    padding: 0px 20px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+#services h2 {
+    text-align: center;
+    color: aqua;
+    font-size: 28px;
+    margin-top: 60px;
+
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    margin: 0px 250px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 10;
+    letter-spacing: 2px;
+}
+
+.box {
+    width: 250px;
+    padding: 40px 30px;
+    border-radius: 15px;
+    text-align: start;
+    color: white;
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: rgb(67, 67, 216);
+}
+
+#box3 {
+    background-color: rgb(20, 20, 37);
+}
+
+
+
+.box:hover {
+    background-color: #565c5e;
+    box-shadow: 0 0 20px 1px #95D3F6;
+}
